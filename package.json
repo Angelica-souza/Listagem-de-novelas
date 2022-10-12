@@ -1,0 +1,19 @@
+{
+  "name": "listagem-de-novelas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelica-souza/Listagem-de-novelas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelica-souza/Listagem-de-novelas/issues"
+  },
+  "homepage": "https://github.com/Angelica-souza/Listagem-de-novelas#readme"
+}
