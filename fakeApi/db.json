@@ -1,0 +1,34 @@
+{
+    "novelas": [
+        {
+            "id": 1,
+            "titulo": "Mar do sertão", 
+            "canal": "Globo",
+            "imagem": "foto.png"
+        },
+        {
+            "id": 2,
+            "titulo": "Pantanal", 
+            "canal": "Globo",
+            "imagem": "foto.png"
+        },
+        {
+            "id": 3,
+            "titulo": "Isa TKM", 
+            "canal": "Band",
+            "imagem": "foto.png"
+        },
+        {
+            "id": 4,
+            "titulo": "Maria do Bairro", 
+            "canal": "SBT",
+            "imagem": "foto.png"
+        },
+        {
+            "id": 5,
+            "titulo": "Mutantes", 
+            "canal": "record",
+            "imagem": "foto.png"
+        }
+    ]
+}
