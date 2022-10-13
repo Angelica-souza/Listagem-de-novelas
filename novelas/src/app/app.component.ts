@@ -8,13 +8,7 @@ import { NovelaService } from './Services/novela.service';
 })
 export class AppComponent {
   title = 'novelas';
+  
+  constructor() { }
 
-  constructor(private novelaServive: NovelaService) {  }
-
-
-  listarTodasNovelas() {
-    this.novelaServive.listarNovela()
-    .then(console.log)
-    .catch(console.log);
-  }
 }

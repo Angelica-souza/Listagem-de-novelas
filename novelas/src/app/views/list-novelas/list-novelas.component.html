@@ -1,0 +1,27 @@
+<div class="main">
+    <h1>Novelas</h1>
+
+    <div class="list__novelas">
+        <div class="novela" *ngFor="let novela of novelas">
+            <h5>{{novela.titulo}}</h5>
+            <h5>{{novela.emissora}}</h5>
+
+            <a href="#">
+                <h6>
+                    deletar
+                </h6>
+            </a>
+
+            <a href="#">
+                <h6>
+                    editar
+                </h6>
+            </a>
+        </div>
+
+        <a routerLink="/cadastro">
+            Adicionar novela
+        </a>
+        
+        <button (click)="listarTodasNovelas()"> Listar novelas </button>
+    </div>

@@ -21,13 +21,19 @@
         {
             "id": 4,
             "titulo": "Maria do Bairro", 
-            "canal": "SBT",
+            "emissora": "SBT",
             "imagem": "foto.png"
         },
         {
             "id": 5,
             "titulo": "Mutantes", 
-            "canal": "record",
+            "emissora": "record",
+            "imagem": "foto.png"
+        },
+        {
+            "id": 6,
+            "titulo": "Rebelde", 
+            "emissora": "record",
             "imagem": "foto.png"
         }
     ]

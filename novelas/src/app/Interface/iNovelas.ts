@@ -1,6 +1,6 @@
 export interface INovela{
     id: number,
     titulo: string,
-    Canal: string,
+    emissora: string,
     imagem: string 
 }
