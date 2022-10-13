@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NovelaService } from './Services/novela.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'novelas';
+
+  constructor(private novelaServive: NovelaService) {  }
+
+
+  listarTodasNovelas() {
+    this.novelaServive.listarNovela()
+    .then(console.log)
+    .catch(console.log);
+  }
 }
