@@ -1,40 +1,71 @@
 {
-    "novelas": [
-        {
-            "id": 1,
-            "titulo": "Mar do sertão", 
-            "canal": "Globo",
-            "imagem": "foto.png"
-        },
-        {
-            "id": 2,
-            "titulo": "Pantanal", 
-            "canal": "Globo",
-            "imagem": "foto.png"
-        },
-        {
-            "id": 3,
-            "titulo": "Isa TKM", 
-            "canal": "Band",
-            "imagem": "foto.png"
-        },
-        {
-            "id": 4,
-            "titulo": "Maria do Bairro", 
-            "emissora": "SBT",
-            "imagem": "foto.png"
-        },
-        {
-            "id": 5,
-            "titulo": "Mutantes", 
-            "emissora": "record",
-            "imagem": "foto.png"
-        },
-        {
-            "id": 6,
-            "titulo": "Rebelde", 
-            "emissora": "record",
-            "imagem": "foto.png"
-        }
-    ]
+  "novelas": [
+    {
+      "id": 1,
+      "titulo": "Mar do sertão",
+      "canal": "Globo",
+      "imagem": "foto.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Pantanal",
+      "canal": "Globo",
+      "imagem": "foto.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Isa TKM",
+      "canal": "Band",
+      "imagem": "foto.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Maria do Bairro",
+      "emissora": "SBT",
+      "ano": 2022,
+      "imagem": "foto.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Mutantes",
+      "emissora": "record",
+      "ano": 2022,
+      "imagem": "foto.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Rebelde",
+      "emissora": "record",
+      "ano": 2022,
+      "imagem": "foto.png"
+    },
+    {
+      "titulo": "TESTE",
+      "emissora": "TESTE",
+      "ano": 2022,
+      "imagem": "",
+      "id": 7
+    },
+    {
+      "titulo": "oi",
+      "emissora": "oi",
+      "ano": 2022,
+      "imagem": "",
+      "id": 8
+    },
+    {
+      "titulo": "oi2",
+      "emissora": "oi2",
+      "ano": 2022,
+      "imagem": "",
+      "id": 9
+    },
+    {
+      "titulo": "Amor proibido",
+      "emissora": "globo",
+      "ano": 2019,
+      "imagem": "",
+      "id": 10
+    }
+  ]
 }
