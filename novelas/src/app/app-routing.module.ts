@@ -6,6 +6,7 @@ import { RegisterNovelaComponent } from './views/register-novela/register-novela
 const routes: Routes = [
   {path:'', component: ListNovelasComponent},
   {path:'cadastro', component: RegisterNovelaComponent},
+  {path:'editar/:id', component: RegisterNovelaComponent}
 ];
 
 @NgModule({
