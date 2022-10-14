@@ -3,9 +3,14 @@
 
     <form action="">
         <label>Titulo</label>
-        <input type="text" name="title"ngModel="novelas.title">
+        <input type="text" name="title" [(ngModel)]="novela.titulo">
 
         <label>Emissora</label>
-        <input type="text" name="broadcaster">
+        <input type="text" name="broadcaster" [(ngModel)]="novela.emissora">
+
+        <label>Ano</label>
+        <input type="number" name="year" [(ngModel)]="novela.ano">
+
+        <button type="button" (click)="register()">Cadastrar</button>
     </form>
 </div>
