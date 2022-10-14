@@ -1,0 +1,16 @@
+<div class="main">
+    <h1>Editar novela</h1>
+
+    <form *ngFor="let novela of novelas">
+        <label>Titulo</label>
+        <input type="text" name="title" [(ngModel)]="novela.titulo" placeholder="{{novela.titulo}}">
+
+        <label>Emissora</label>
+        <input type="text" name="broadcaster" [(ngModel)]="novela.emissora">
+
+        <label>Ano</label>
+        <input type="number" name="year" [(ngModel)]="novela.ano">
+
+        <button type="button" (click)="edit()">Salvar</button>
+    </form>
+</div>
